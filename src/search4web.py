@@ -24,4 +24,5 @@ def entry_page():
                            the_title='Welcome to search4letters on the web!')
 
 
-app.run()
+if __name__ == '__main__':
+    app.run(debug=True)
